@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { AngularEditorModule } from '@kolkov/angular-editor';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './main/home/home.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AngularEditorModule, HttpClientModule ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, HomeComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
